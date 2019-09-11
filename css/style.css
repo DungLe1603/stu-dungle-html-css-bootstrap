@@ -1,0 +1,40 @@
+.display-none {
+    display: none;
+}
+.pull-left {
+    float: left;
+}
+.flex {
+    display: flex;
+}
+.header {
+  position: relative;
+  height: 400px;
+  color: #fff;
+  font-weight: 500;
+  background: url(../images/background.png) rgba(0, 0, 0, 0.4);
+  background-size:cover;
+  background-blend-mode: multiply;
+}
+.header a {
+  color: #fff;
+  font-size: 14px;
+}
+.header a:hover {
+  color: #00AEEF;
+}
+.header .navbar {
+  margin-left: 5%;
+}
+.banner {
+  margin-top: 70px;
+}
+.banner h1 {
+  font-size: 43px;
+  line-height: 43px;
+  margin: 0 0 10px;
+}
+.banner h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
