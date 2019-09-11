@@ -1,22 +1,70 @@
+/* Small and Medium devices (phones, tablets) */
+@media only screen and (max-width: 991px) {
+  .header {
+    text-align: center;
+    background: #00aeef;
+    padding: 10px 0;
+    position: relative;
+  }
+  .navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .logo {width: 100%;}
+  .logo img { height:24px; }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  
+  .banner-caption { transform: translateY(20px); }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .logo { float: left; }
+  .logo img { width: 150px; }
+}
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
 .display-none {
-    display: none;
+  display: none;
 }
 .pull-left {
-    float: left;
+  float: left;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
-.header {
+.full-width {
+  width: 100%;
+}
+header, main, footer {
   position: relative;
+}
+.banner {
+  display: flex;  
   height: 400px;
+  align-items: center;
   color: #fff;
   font-weight: 500;
   background: url(../images/background.png) rgba(0, 0, 0, 0.4);
   background-size:cover;
   background-blend-mode: multiply;
 }
-.header a {
+.banner-caption {
+  width: 100%;
+  text-align: center;
+}
+.header a, header i {
   color: #fff;
   font-size: 14px;
 }
@@ -25,9 +73,6 @@
 }
 .header .navbar {
   margin-left: 5%;
-}
-.banner {
-  margin-top: 70px;
 }
 .banner h1 {
   font-size: 43px;
