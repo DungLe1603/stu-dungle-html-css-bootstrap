@@ -104,6 +104,11 @@
     font-size: 12px;
     line-height: 22px;
   }
+  .copyright {    
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -112,6 +117,11 @@
     padding: 40px;
     line-height: 24px;
     font-weight: 300px;
+  }
+  .copyright {    
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
   }
 }
 
@@ -233,4 +243,25 @@ header, main, footer {
   font-weight: 500;
   margin-bottom: 5px;
   line-height: 24px;
+}
+/* Style for footer */
+.footer {
+  background-color: #181818;  
+  margin-bottom: -30px;
+  padding: 100px 0 70px;
+  color: #fff;
+}
+.footer-widget {
+  margin-bottom: 30px;
+}
+.copyright {
+  background-color: #000000;
+  border-top: 1px solid #00243f;
+  padding-top: 30px;
+  padding-bottom: 25px;  
+  color: #fff;
+  font-weight: 300;
+}
+.copyright p {
+  margin-bottom: 0;
 }
