@@ -203,8 +203,18 @@ header, main, footer {
   line-height: 1.42857;
   margin-bottom: 16px;
   padding: 11px 15px;
-  background: #FF6E00;  
+  background: #FF6E00;
+  border: 1px solid #FF6E00;
   border-radius: 4px;
+}
+.submit:hover {
+  color: #fff;
+  background: #FF6E00;
+}
+.submit:active {
+  color: #fff;
+  background: #00aeef;
+  border: 1px solid #00AEEF;
 }
 .form-group {
   margin-bottom: 15px;
