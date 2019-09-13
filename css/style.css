@@ -1,6 +1,5 @@
 /* Small and Medium devices (phones, tablets) */
-@media only screen and (max-width: 991px) {  
-  /* Style for header  */
+@media only screen and (max-width: 991px) {
   .header {
     height: 62px;
     background: #00aeef;
@@ -52,8 +51,16 @@
     float: right;
     margin: 10px 0;
   }
-
-  /* Style for main article */
+  .banner h1 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 10px;
+  }
+  .banner h2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
   .page-title .page-title-header {
     font-size: 22px;
     line-height: 38px;
@@ -61,7 +68,6 @@
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* Style for header  */
   .banner-caption { transform: translateY(20px); }
   .header {
     position: absolute;
@@ -90,8 +96,15 @@
   .navbar a:hover {
     color: #00AEEF;
   }
-  
-  /* Style for main article */
+  .banner h1 {
+    font-size: 43px;
+    line-height: 43px;
+    margin: 0 0 10px;
+  }
+  .banner h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
   .page-title .page-title-header {
     font-size: 30px;
     line-height: 38px;
@@ -111,6 +124,16 @@
   }
   .footer {    
     padding: 45px 0 35px;
+  }
+  .banner h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 5px;
+  }
+  .banner h2 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -152,7 +175,6 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
 header, main, footer {
   position: relative;
@@ -167,6 +189,10 @@ strong {
   margin: 0;
   padding: 0;
   border: none;
+  background: rgba(255,255,255,0.95);
+}
+.dropdown-item:hover {
+  background: transparent;
 }
 .header a {
   font-size: 14px;
@@ -185,15 +211,6 @@ strong {
 .banner-caption {
   width: 100%;
   text-align: center;
-}
-.banner h1 {
-  font-size: 43px;
-  line-height: 43px;
-  margin: 0 0 10px;
-}
-.banner h2 {
-  font-size: 20px;
-  line-height: 24px;
 }
 
 /* Style for main article */
