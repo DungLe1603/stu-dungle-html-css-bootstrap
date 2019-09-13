@@ -8,7 +8,11 @@
     justify-content: center;
     align-items: center;
   }
-   .logo img {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .logo img {
     height:24px;
   }
   .navbar {
@@ -74,7 +78,7 @@
   }
   .logo {
     float: left;
-    margin: -4px 60px 0 80px;
+    margin-top: -30px;
   }
   .logo img { width: 150px; }
   .navbar { margin: 25px 0;}
@@ -184,6 +188,9 @@ strong {
 }
 
 /* Style for header */
+.header {
+  width: 100%;;
+}
 .dropdown-menu {
   border-radius: unset;
   margin: 0;
