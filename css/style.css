@@ -104,6 +104,14 @@
     font-size: 12px;
     line-height: 22px;
   }
+  .copyright {    
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .footer {    
+    padding: 45px 0 35px;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -112,6 +120,21 @@
     padding: 40px;
     line-height: 24px;
     font-weight: 300px;
+  }
+  .copyright {    
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .footer {    
+    padding: 100px 0 70px;
+  }
+}
+/* Laptop devices ( 992px -> 1200px) */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .social-contact {
+    width: 300px;
+    overflow: hidden;
   }
 }
 
@@ -233,4 +256,52 @@ header, main, footer {
   font-weight: 500;
   margin-bottom: 5px;
   line-height: 24px;
+}
+/* Style for footer */
+.footer {
+  background-color: #181818;  
+  margin-bottom: -30px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer a {
+  font-weight: 300;
+  color: #fff;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #00AEEF;
+}
+.footer-widget {
+  margin-bottom: 30px;
+}
+.footer-title {
+  margin-bottom: 17px;
+}
+.footer-title h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500px;
+}
+.footer-menu li {
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.footer-sub-menu {
+  margin-top: 10px;
+}
+.contact-menu i {
+  margin-right: 10px;
+}
+.copyright {
+  background-color: #000000;
+  border-top: 1px solid #00243f;
+  padding-top: 30px;
+  padding-bottom: 25px;  
+  color: #fff;
+  font-weight: 300;
+}
+.copyright p {
+  margin-bottom: 0;
 }
