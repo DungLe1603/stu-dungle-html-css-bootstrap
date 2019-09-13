@@ -97,8 +97,8 @@
     line-height: 38px;
   }
 }
-/* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+/* Small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
   .content {
     padding: 25px;
     font-size: 12px;
@@ -119,10 +119,10 @@
     font-size: 16px;
     padding: 40px;
     line-height: 24px;
-    font-weight: 300px;
+    font-weight: 300;
   }
   .copyright {    
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     text-align: left;
   }
@@ -150,8 +150,15 @@
 .full-width {
   width: 100%;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 header, main, footer {
   position: relative;
+}
+strong {
+  font-weight: bold;
 }
 
 /* Style for header */
@@ -214,7 +221,7 @@ header, main, footer {
 }
 .breadcrumb-item a {
   color: #00AEEF;
-  font-weight: 400px;
+  font-weight: 400;
 }
 .content {
   background: #fff;
@@ -282,7 +289,7 @@ header, main, footer {
 .footer-title h3 {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 .footer-menu li {
   line-height: 14px;
@@ -290,6 +297,7 @@ header, main, footer {
 }
 .footer-sub-menu {
   margin-top: 10px;
+  margin-left: 20px;
 }
 .contact-menu i {
   margin-right: 10px;
