@@ -109,6 +109,9 @@
     line-height: 22px;
     text-align: center;
   }
+  .footer {    
+    padding: 45px 0 35px;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -122,6 +125,16 @@
     font-size: 16px;
     line-height: 24px;
     text-align: left;
+  }
+  .footer {    
+    padding: 100px 0 70px;
+  }
+}
+/* Laptop devices ( 992px -> 1200px) */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .social-contact {
+    width: 300px;
+    overflow: hidden;
   }
 }
 
@@ -248,7 +261,6 @@ header, main, footer {
 .footer {
   background-color: #181818;  
   margin-bottom: -30px;
-  padding: 100px 0 70px;
   color: #fff;
   font-size: 14px;
   line-height: 24px;
